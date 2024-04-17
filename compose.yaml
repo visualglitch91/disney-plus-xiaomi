@@ -1,0 +1,8 @@
+services:
+  disney-plus-xiaomi:
+    container_name: disney-plus-xiaomi
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/data
